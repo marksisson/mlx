@@ -50,11 +50,11 @@
     },
     "channel": {
       "locked": {
-        "lastModified": 1781607440,
-        "narHash": "sha256-rxO+uc/KFbSJp+pgyXRuAX6QlG9hJdnt0BXpEQRXY+U=",
+        "lastModified": 1782175435,
+        "narHash": "sha256-EMzXKmnOtBQ2MnvpiNOm7E+kOMvdPrIKaeg52Tip2Uk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "3e41b24abd260e8f71dbe2f5737d24122f972158",
+        "rev": "89570f24e97e614aa34aa9ab1c927b6578a43775",
         "type": "github"
       },
       "original": {
@@ -76,11 +76,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1782519806,
-        "narHash": "sha256-cYBaxIhzVDyyHoKW+/Z0hAsBb4GrJ/Ug1TVMvw1/QJo=",
+        "lastModified": 1783092059,
+        "narHash": "sha256-uTuopZCKlbUjAOtPO176g7XmlKnXiROIzxF6X/vA+WU=",
         "owner": "nixology",
         "repo": "core.nix",
-        "rev": "bca999191963b1198f190aa135b458a623f46456",
+        "rev": "6fa51e4c656be7450a79c09f0916149a737c320a",
         "type": "github"
       },
       "original": {
@@ -95,11 +95,11 @@
       },
       "locked": {
         "dir": "nixpkgs-unstable",
-        "lastModified": 1781798631,
-        "narHash": "sha256-TFnCx40VNHLwA+gS3Tb6HW7do3aZijyVp/H2FV4rSz4=",
+        "lastModified": 1782487550,
+        "narHash": "sha256-3FNlJjDJ8D8W+q+uS6REnSWf0EnbE7wFq3JUVhP7CXw=",
         "owner": "nixology",
         "repo": "channels.nix",
-        "rev": "01b2cfe422ec424fdfa4312a1655f2bd4ac7b326",
+        "rev": "8af490517a58ad6d0954470ed1c16c0b639f975d",
         "type": "github"
       },
       "original": {
@@ -114,11 +114,11 @@
         "core": "core"
       },
       "locked": {
-        "lastModified": 1782519886,
-        "narHash": "sha256-DFe1tjKod/8HGjxdxdAugoOc8ICVgpc80ePwHr+GHd8=",
+        "lastModified": 1783347148,
+        "narHash": "sha256-CYcTeZFJMewtYNlTvoGK+3C85bB9u4cAO9xNK+z+UUk=",
         "owner": "nixology",
         "repo": "flake.nix",
-        "rev": "69b1f4112cf3ff4848e2323cc6034d9d501cad6e",
+        "rev": "c8e597a2fe1ea4094c080ecfe1b50999f35d72be",
         "type": "github"
       },
       "original": {
@@ -132,11 +132,11 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1778716662,
-        "narHash": "sha256-m1Yf0wZ8j1OHjTc2UwHwyQRSnNeSgLJOd7q5Y45hzi4=",
+        "lastModified": 1782949081,
+        "narHash": "sha256-vp6Y/Grm98ESt6ceOkWiHWyZRDV3J1RID4w+6NWK9yA=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "f7c1a2d347e4c52d5fb8d10cb4d94b5884e546fb",
+        "rev": "17c9d6cdfc60c64f4ee8d306f9bc0b4ccb51481e",
         "type": "github"
       },
       "original": {
@@ -178,6 +178,38 @@
         "type": "github"
       }
     },
+    "mlx-community--Ornith-1_0-35B-8bit": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782594029,
+        "narHash": "sha256-7yATzBTkb+5+ArOOqcAWu4k22PhfFdY3ztGltt7HQGM=",
+        "ref": "refs/heads/main",
+        "rev": "28d10f45a04981989f5a2e53e38f6473e81e815a",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-35B-8bit"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-35B-8bit"
+      }
+    },
+    "mlx-community--Ornith-1_0-9B-bf16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1782639591,
+        "narHash": "sha256-sGVdtj4EhsbBcun/B6zlFsw5Z+8JT53DW78Mi95K1/4=",
+        "ref": "refs/heads/main",
+        "rev": "5944bc88218397fe6879d5b350b26297673f80a7",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-9B-bf16"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://huggingface.co/mlx-community/Ornith-1.0-9B-bf16"
+      }
+    },
     "mlx-lm": {
       "flake": false,
       "locked": {
@@ -204,6 +236,8 @@
           "flake"
         ],
         "google--gemma-3-1b-it": "google--gemma-3-1b-it",
+        "mlx-community--Ornith-1_0-35B-8bit": "mlx-community--Ornith-1_0-35B-8bit",
+        "mlx-community--Ornith-1_0-9B-bf16": "mlx-community--Ornith-1_0-9B-bf16",
         "nix-hug": "nix-hug",
         "unsloth--Qwen3_6-27B-MLX-8bit": "unsloth--Qwen3_6-27B-MLX-8bit",
         "unsloth--Qwen3_6-35B-A3B-MLX-8bit": "unsloth--Qwen3_6-35B-A3B-MLX-8bit",
@@ -213,11 +247,11 @@
         "yujiepan--qwen3-tiny-random": "yujiepan--qwen3-tiny-random"
       },
       "locked": {
-        "lastModified": 1782049568,
-        "narHash": "sha256-EWK/n2bsduxqX3Mkw5LXj1mbovRIPsxWBUKFD9mu5Hs=",
+        "lastModified": 1783429563,
+        "narHash": "sha256-FgB56ap9WhInf3oguDsjVSnpbiQZbQbYxSp3i1dCKJs=",
         "owner": "nixology",
         "repo": "models.nix",
-        "rev": "d95a26a0fce17d12fdb58dd7dafee18ba0b162c1",
+        "rev": "2b350574e1ad03b7afea4af4eea2efbcc5235e28",
         "type": "github"
       },
       "original": {
@@ -252,11 +286,11 @@
     },
     "nixpkgs-lib": {
       "locked": {
-        "lastModified": 1777168982,
-        "narHash": "sha256-GOkGPcboWE9BmGCRMLX3worL4EMnsnG8MyKmXNeYuhQ=",
+        "lastModified": 1782614948,
+        "narHash": "sha256-ePjCwr1sNm9NYUqywL7QfK3JnlS015msC+eBu2zKlp8=",
         "owner": "nix-community",
         "repo": "nixpkgs.lib",
-        "rev": "f5901329dade4a6ea039af1433fb087bd9c1fe14",
+        "rev": "db3f255737b94216eb71cce308e2912cf6bc2d7c",
         "type": "github"
       },
       "original": {
@@ -270,7 +304,24 @@
         "flake": "flake",
         "mlx": "mlx",
         "mlx-lm": "mlx-lm",
-        "models": "models"
+        "models": "models",
+        "transformers-to-mlx": "transformers-to-mlx"
+      }
+    },
+    "transformers-to-mlx": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1776351115,
+        "narHash": "sha256-e3fAO5dej4qIzewVRB18FEhih1Zstl7yxgo2HfnVp3k=",
+        "owner": "huggingface",
+        "repo": "transformers-to-mlx",
+        "rev": "1800e733dc99edf6b33c4c631c813e880dc9cb8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "huggingface",
+        "repo": "transformers-to-mlx",
+        "type": "github"
       }
     },
     "unsloth--Qwen3_6-27B-MLX-8bit": {

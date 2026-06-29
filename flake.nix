@@ -9,6 +9,9 @@
   inputs.mlx-lm.url = "github:ml-explore/mlx-lm/v0.31.3";
   inputs.mlx-lm.flake = false;
 
+  inputs.transformers-to-mlx.url = "github:huggingface/transformers-to-mlx";
+  inputs.transformers-to-mlx.flake = false;
+
   inputs.models.url = "github:nixology/models.nix";
   inputs.models.inputs.flake.follows = "flake";
 

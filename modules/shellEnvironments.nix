@@ -46,8 +46,8 @@
       };
     in
     {
-      shellEnvs.default =
-        with config.shellEnvs;
+      shellEnvironments.default =
+        with config.shellEnvironments;
         lib.mkMerge [
           default
           nix
